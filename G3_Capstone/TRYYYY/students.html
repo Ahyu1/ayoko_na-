@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GradeSync</title>
+    <link rel="stylesheet" href="students.css">
+</head>
+<body>
+    <div class="maincon"></div>
+        <div class="sideBar">
+            <div class="header--sb">
+                <img src="scclogo.webp" alt="scclogo">
+                <h1>GRADESYNC: GRADE MANAGEMENT INFORMATION SYSTEM</h1>
+            </div>
+            <div class="itemLinks--sb">
+                <a class="homeSec">
+                    <img src="home.png" alt="hlogo">
+                    <h1>HOME</h1>
+                </a>
+                <a class="recordSec">
+                    <img src="folder.png" alt="rlogo">
+                    <h1>RECORDS</h1>
+                </a>
+            </div>
+            <div class="accountSec">
+                <img src="profile-user.png" alt="accountlogo">
+                <p id="account">Account/Logout</p>
+            </div>
+        </div>
+        <div class="main">
+            <a href="insideClass.html"><button id="back"><img src="back.png" alt="back-icon"></button></a>
+            <div class="mainHeader">
+                <h1>ICT5 - 12 OLIVET</h1>
+                <div class="mainHeaderBtns">
+                    <button id="sortStudent">SORT &#x25BC;</button>
+                    <input type="text" class="searchStudentName" placeholder="&#128269; Search Student: ">
+                </div>
+            </div>
+            <label for="fileUpload">Import Student data:</label>
+            <input type="file" class="fileUpload" name="fileUpload" accept=".xls, .xlsx">
+    <div class="createClassContainer">
+    </div>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
