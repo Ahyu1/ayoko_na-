@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="insideClass.css">
+</head>
+<body>
+    <div class="maincon"></div>
+        <div class="sideBar">
+            <div class="header--sb">
+                <img src="scclogo.webp" alt="scclogo">
+                <h1>GRADESYNC: GRADE MANAGEMENT INFORMATION SYSTEM</h1>
+            </div>
+            <div class="itemLinks--sb">
+                <a class="homeSec">
+                    <img src="home.png" alt="hlogo">
+                    <h1>HOME</h1>
+                </a>
+                <a class="recordSec">
+                    <img src="folder.png" alt="rlogo">
+                    <h1>RECORDS</h1>
+                </a>
+            </div>
+            <div class="accountSec">
+                <img src="profile-user.png" alt="accountlogo">
+                <p id="account">Account</p>
+            </div>
+        </div>
+        <div class="main">
+            <a href="main.html"><button id="back"><img src="back.png" alt="back-icon"></button></a>
+            <div class="mainHeader">
+                <h1 class="classSection">ICT5 - 12 Olivet</h1>
+                <a href="students.html"><button class="studentList"><img src="team.png" alt="students-icon">STUDENTS</button></a>
+            </div>
+            <div class="inputs--buttons--Container">
+                <div class="inputs--Container">
+                    <label for="taskName">Task Name: </label>
+                    <input type="text" placeholder="Enter: " class="taskName">
+                    <label for="maxScore">Max Score: </label>
+                    <input type="number" placeholder="Enter: " class="maxScore">
+                    <button class="clear">CLEAR</button>
+                </div>
+                <div class="buttons--Container">
+                    <button class="addWW">ADD WW</button>
+                    <button class="addPT">ADD PT</button>
+                    <button class="addExam">ADD EXAM</button>
+                </div>
+            </div>
+            <div class="components--tasks--Container">
+                <div class="writtenWorkContainer">
+                    <div class="wwHeader">
+                        <h2>WRITTEN WORK</h1>
+                        <button class="settings"><img src="gear.png" alt="settingIcon" id="settingsIcon"></button>
+                    </div>
+                    <div class="wwTaskElements">
+
+                    </div>
+                </div>
+                <div class="performanceTaskContainer">
+                    <div class="ptHeader">
+                        <h2>PERFORMANCE TASK</h1>
+                        <button class="settings"><img src="gear.png" alt="settingIcon" id="settingsIcon"></button>
+                    </div>
+                    <div class="ptTaskElements">
+                        
+                    </div>
+                </div>
+                <div class="examContainer">
+                    <div class="examHeader">
+                        <h2>EXAM</h1>
+                        <button class="settings"><img src="gear.png" alt="settingIcon" id="settingsIcon"></button>
+                    </div>
+                    <div class="examTaskElements">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component--rate--Container">
+        <!--
+        <div class="component--rate--Section">
+            <div class="componentRateHeader">
+                <h1 class="componentTitle">WRITTEN WORK</h1>
+                <button id="exit"><img src="x-mark.png" alt="exitIcon"></button>
+            </div>
+            <label>Component's Rate: </label><br>
+            <input type="number" class="rateInput" placeholder="Enter: "><br><br>
+            <input type="submit" class="saveRate" value="SAVE">
+        </div>
+        -->
+    </div>
+    <script src="insideClass.js"></script>
+    
+</body>
+</html>
